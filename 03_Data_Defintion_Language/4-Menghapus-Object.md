@@ -1,5 +1,5 @@
 ## **Menghapus sebuah objek**
-> Digunakan untuk menghapus Object bisa berupa sebuah database ataupun table
+> Digunakan untuk menghapus Object bisa berupa sebuah database ataupun table,jika terjadi penghapusan object maka data didalam nya otomatis akan ikut terhapus
 
   `DROP`
 

@@ -1,4 +1,5 @@
 ## **Membuat sebuah objek atau objek lainnya yang belum ada.**
+> Query ini berfungsi untuk membuat object bisa berupa database ataupun table jika membuat database, maka hanya perlu melakukan query lalu buat nama database, jika membuat sebuah table maka diikuti juga dengan membuat sebuah kolom dan tipe data pada masing masing kolom
 
   `CREATE`
 
@@ -9,12 +10,14 @@
     
   - Membuat Table : 
     > `CREATE TABLE `+ Nama tabel + `(` + Nama Kolom +` ` + Tipe Data Kolom +`(` + Panjang Data +`) `+ Key + ` AUTO INCREMENT NOT NULL); `
-   
-  Contoh : 
   
   Note 
-  > Jika terdapat lebih dari 1 kata maka gunakan tanda ``_`` sebagai pengganti spasi.
-
+  > - AUTO INCREMENT (Opsional): Berfungsi sebagai penambahan value secara otomatis setiap terjadinya input record baru
+  > - NOT NULL (Opsional) : Query yang berfungsi untuk menentukan jika kolom tidak boleh kosong alias null
+  > - Jika dalam penamaan terdapat lebih dari 1 kata maka gunakan tanda ``_`` sebagai pengganti spasi.
+  
+  Contoh : 
+  
   - Membuat Database : 
     > `CREATE DATABASE Mahasiswa;`
 

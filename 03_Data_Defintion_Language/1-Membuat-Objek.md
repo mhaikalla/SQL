@@ -3,7 +3,7 @@
 
   `CREATE`
 
-  Bentuk Umum : `CREATE` + Objek + Nama Object + `;`
+  ### Bentuk Umum : `CREATE` + Objek + Nama Object + `;`
   
   - Membuat Database : 
     > `CREATE DATABASE`+ Nama Database + `;`
@@ -11,12 +11,12 @@
   - Membuat Table : 
     > `CREATE TABLE `+ Nama tabel + `(` + Nama Kolom +` ` + Tipe Data Kolom +`(` + Panjang Data +`) `+ Key + ` AUTO INCREMENT NOT NULL); `
   
-  Note 
+  ### Note 
   > - AUTO INCREMENT (Opsional): Berfungsi sebagai penambahan value secara otomatis setiap terjadinya input record baru
   > - NOT NULL (Opsional) : Query yang berfungsi untuk menentukan jika kolom tidak boleh kosong alias null
   > - Jika dalam penamaan terdapat lebih dari 1 kata maka gunakan tanda ``_`` sebagai pengganti spasi.
   
-  Contoh : 
+  ### Contoh : 
   
   - Membuat Database : 
     > `CREATE DATABASE Mahasiswa;`
